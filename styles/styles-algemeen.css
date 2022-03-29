@@ -5,3 +5,17 @@
 
 
 /*Footer styling*/
+body
+{
+    background: #0085ca;
+}
+
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: Verdana;
+    font-size: 13px;
+}
