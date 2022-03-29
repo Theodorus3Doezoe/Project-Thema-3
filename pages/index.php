@@ -8,6 +8,16 @@
     <title>KW1C</title>
 </head>
 <body>
-    <?php include 'includes/nav';?>
+    <header>
+        <!--nav via include-->
+        <?php include '../includes/nav.php';?>
+    </header>
+    <main>
+        <img src="../images/banner-ict-academie.jpg" alt="banner">
+    </main>
+    <footer>
+        <?php include '../includes/footer.php';?>
+    </footer>
+    
 </body>
 </html>
