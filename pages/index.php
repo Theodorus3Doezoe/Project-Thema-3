@@ -10,6 +10,16 @@
     <link rel="stylesheet" href="styles/styles-algemeen.css">
 </head>
 <body>
-    <?php include 'includes/nav.php';?>
+    <header>
+        <!--nav via include-->
+        <?php include '../includes/nav.php';?>
+    </header>
+    <main>
+        <img src="../images/banner-ict-academie.jpg" alt="banner">
+    </main>
+    <footer>
+        <?php include '../includes/footer.php';?>
+    </footer>
+
 </body>
 </html>
