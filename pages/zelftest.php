@@ -14,30 +14,30 @@
     <h1>
         welke opleiding past bij jou zelftest
     </h1>
-    <form action="resultaten.php">
+    <form action="resultaten.php" method="get">
         <p>
         Vraag 1 Ben jij geïnteresseerd in technologie?
         </p>
 
-        <input type="radio" name="q1" id="q1a1">
+        <input type="radio" name="q1" id="q1a1" value="ja">
         <label>
             1.  Ja
         </label>
         <br>
 
-        <input type="radio" name="q1" id="q1a2">
+        <input type="radio" name="q1" id="q1a2" value="beetje">
         <label>
             2. Beetje
         </label>
         <br>
 
-        <input type="radio" name="q1" id="q1a3">
+        <input type="radio" name="q1" id="q1a3" value="niet echt">
         <label>
             3. Niet echt
         </label>
         <br>
 
-        <input type="radio" name="q1" id="q1a4">
+        <input type="radio" name="q1" id="q1a4" value="zeker niet">
         <label>
             4. Zeker niet
         </label>
