@@ -56,6 +56,19 @@ body
 #banner
 {
     width: 100vw;
+    background-image: url("../images/banner-ict-academie.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 40vw;
+    text-align: center;
+    padding-top: 160px;
+}
+#zelftestknop
+{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+
 }
 h1
 {

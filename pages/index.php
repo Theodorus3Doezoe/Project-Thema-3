@@ -14,8 +14,8 @@
         <!--nav via include-->
         <?php include '../includes/nav.php';?>
     </header>
-    <main>
-        <img id="banner" src="../images/banner-ict-academie.jpg" alt="banner">
+    <main id="banner">
+            <a id="zelftestknop" href="zelftest.php">zelftest</a>
     </main>
     <h1>
         ICT-Acedemie

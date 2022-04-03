@@ -5,6 +5,5 @@
         <li><a href="#">studiekeuze</a></li>
         <li><a href="#">volwassenen & werkgevers</a></li>
         <li><a href="#">studenteninfo</a></li>
-        <li id="zelftest"><a href="../pages/zelftest.php">zelftest</a></li>
     </ul>
 </div>
