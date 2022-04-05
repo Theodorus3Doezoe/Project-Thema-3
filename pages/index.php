@@ -10,12 +10,16 @@
     <link rel="stylesheet" href="../styles/styles-algemeen.css">
 </head>
 <body>
-    <header>
-        <!--nav via include-->
-        <?php include '../includes/nav.php';?>
-    </header>
+    <div id="header">
+        <header>
+            <!--nav via include-->
+            <?php include '../includes/nav.php';?>
+        </header>
+    </div>
     <main id="banner">
+        <p id="pzelftest">
             <a id="zelftestknop" href="zelftest.php">zelftest</a>
+        </p>
     </main>
     <h1>
         ICT-Acedemie
@@ -40,7 +44,7 @@
             Download de brochure van deze afdeling:
         </p>
         <p id="brochure">
-            <a href="#">
+            <a id="azelftest" href="#">
                 brochure in pdf
             </a>
         </p>

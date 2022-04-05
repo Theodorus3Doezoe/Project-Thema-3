@@ -1,22 +1,25 @@
 /*Navbar styling*/
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+    /*border: solid black 3px;*/
+
+}
 @font-face
 {
     src: url("../fonts/Sintony-Regular.ttf");
 }
-li
-{
-    float: left;
-    margin: 25px 0 25px 25px;
-    list-style-type: none;
-    text-align: center;
-}
 #nav
 {
-    margin-left: 300px;
+    margin-left: 0;
 }
 nav
 {
     text-align: center;
+
 }
 #zelftest
 {
@@ -44,14 +47,7 @@ body
     background: #66b6df;
 }
 
-*
-{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    color: white;
 
-}
 /*index pagina styling*/
 #banner
 {
@@ -61,13 +57,14 @@ body
     background-size: 100vw;
     height: 40vw;
     text-align: center;
-    padding-top: 160px;
 }
-#zelftestknop
+
+#pzelftest
 {
-    width: 30px;
-    height: 30px;
+    width: 15vw;
     background-color: red;
+    margin-left: 45vw;
+    margin-top: 7.5vh;
 
 }
 h1
@@ -84,11 +81,18 @@ h1
     background-color: #0085ca;
     float: left;
 }
+
 header
 {
-    background-color: #0085ca;
-    position: fixed;
     width: 100vw;
+    background-color: #0085ca;
+    height: 60vh;
+    position: absolute;
+    text-align: center;
+}
+#header
+{
+    height: 60vh;
 }
 p
 {
@@ -122,4 +126,81 @@ h3
 #stippelijn
 {
     width: 100vw;
+}
+.nav
+{
+    width: 100vw;
+    margin-left: 0;
+    float: left;
+    margin-top: 30px;
+    list-style-type: none;
+
+}
+#azelftest
+{
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 600px)
+{
+    .anav
+    {
+        width: 10vw;
+        font-size: 20px;
+    }
+    .nav
+    {
+        width: 10vw;
+        margin-left: 80px;
+
+    }
+    #nav
+    {
+        margin-left: 30px;
+    }
+    #header
+    {
+        height: 20vh;
+        width: 100vw;
+    }
+    header
+    {
+        height: 20vh;
+    }
+    #banner
+    {
+        padding-top: 100px;
+    }
+}
+@media only screen and (min-width: 900px)
+{
+    .anav
+    {
+        width: 10vw;
+        font-size: 20px;
+    }
+    .nav
+    {
+        width: 10vw;
+        margin-left: 80px;
+
+    }
+    #nav
+    {
+        margin-left: 200px;
+    }
+    #header
+    {
+        height: 10vh;
+    }
+    header
+    {
+        height: 10vw;
+    }
+    #banner
+    {
+        padding-top: 100px;
+    }
+
+
 }
