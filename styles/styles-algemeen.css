@@ -1,26 +1,112 @@
 /*Navbar styling*/
+@font-face
+{
+    src: url("../fonts/Sintony-Regular.ttf");
+}
+li
+{
+    float: left;
+    margin: 25px 0 25px 25px;
+    list-style-type: none;
+    text-align: center;
+}
+#nav
+{
+    margin-left: 300px;
+}
+nav
+{
+    text-align: center;
+}
+#zelftest
+{
+    float: right;
+    margin-right: 100px;
+    background-color: red;
+    padding: 12px;
+}
+a
+{
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#logo
+{
+    float: left;
+}
 
 
 
-/*body stylings*/
+/*Footer styling*/
+body
+{
+    background: #66b6df;
+}
+
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+
+}
+/*index pagina styling*/
 #banner
 {
     width: 100vw;
-    height: 100vh;
 }
 h1
 {
     text-align: center;
-    margin: 32px;
-    font-size: 3em;
-    text-transform: uppercase;
+    width: 100vw;
+    margin: 20px 0 20px 0;
 }
-body
+#block1
 {
-    background: #0085ca;
+    margin: 20px 20px 20px 20px;
+    margin-left: 10vw;
+    width: 40vw;
+    background-color: #0085ca;
+    float: left;
 }
-#line
+header
 {
-    background-color: red url(../images/lijn.png)
+    background-color: #0085ca;
+    position: fixed;
+    width: 100vw;
 }
-/*Footer styling*/
+p
+{
+    margin: 20px;
+}
+h3
+{
+    text-align: center;
+}
+#brochure
+{
+    background-color: red;
+    padding: 3px;
+}
+#block2
+{
+    margin: 20px 20px 20px 20px;
+    margin-left: 5vw;
+    width: 25vw;
+    background-color: #0085ca;
+    float: left;
+}
+#block3
+{
+    margin: 20px 20px 20px 20px;
+    margin-left: 5vw;
+    width: 25vw;
+    background-color: #0085ca;
+    float: left;
+}
+#stippelijn
+{
+    width: 100vw;
+}
