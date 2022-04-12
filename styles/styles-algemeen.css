@@ -83,8 +83,7 @@ h1
 }
 #block1
 {
-    margin: 20px 20px 20px 20px;
-    margin-left: 10vw;
+    margin: 20px 20px 20px 10vw;
     width: 40vw;
     background-color: #0085ca;
     float: left;
@@ -172,11 +171,6 @@ footer
 #ulnav
 {
     text-align: center;
-}
-#menuheader
-{
-    float: right;
-    height: 10vh;
 }
 @media only screen and (min-width: 600px)
 {

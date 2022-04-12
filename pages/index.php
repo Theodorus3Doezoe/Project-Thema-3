@@ -11,6 +11,9 @@
 </head>
 <body>
 <?php include '../includes/nav.php';?>
+<div id="pzelftest">
+    <a id="zelftestknop" href="zelftest.php">zelftest</a>
+</div>
     <div id="banner">
     </div>
     <main>
