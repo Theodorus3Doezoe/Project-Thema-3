@@ -23,7 +23,7 @@
                     <p>
                         Vraag 1 Ben jij geïnteresseerd in technologie?
                     </p>
-                    <form action="resultaten.php">
+                    <form action="resultaten.php" method="post">
                         <input type="radio" name="q1" id="q1a1">
                         <label>
                             1.  Ja
