@@ -1,22 +1,30 @@
 /*Navbar styling*/
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+    /*border: solid black 3px;*/
+}
+body
+{
+    max-width: 100%;
+    overflow-x: hidden;
+}
 @font-face
 {
     src: url("../fonts/Sintony-Regular.ttf");
 }
-li
-{
-    float: left;
-    margin: 25px 0 25px 25px;
-    list-style-type: none;
-    text-align: center;
-}
 #nav
 {
-    margin-left: 300px;
+    margin-left: 0;
+
 }
 nav
 {
     text-align: center;
+
 }
 #zelftest
 {
@@ -27,35 +35,45 @@ nav
 }
 a
 {
-    font-size: 25px;
     text-decoration: none;
     font-weight: bold;
+    width: 50px;
+    height: 50px;
 }
 #logo
 {
-    float: left;
+    text-align: center;
 }
 
 
 
 /*Footer styling*/
+
 body
 {
     background: #66b6df;
 }
 
-*
-{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    color: white;
 
-}
 /*index pagina styling*/
 #banner
 {
     width: 100vw;
+    background-image: url("../images/banner-ict-academie.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 40vw;
+    text-align: center;
+    padding-top: 70px;
+}
+
+#pzelftest
+{
+    width: 100vw;
+    background-color: red;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
 }
 h1
 {
@@ -71,15 +89,23 @@ h1
     background-color: #0085ca;
     float: left;
 }
+
 header
 {
-    background-color: #0085ca;
-    position: fixed;
     width: 100vw;
+    background-color: #0085ca;
+    height: 60vh;
+    text-align: center;
+    margin-bottom: 500px;
+}
+#header
+{
+    height: 60vh;
+    background-color: #0085ca;
 }
 p
 {
-    margin: 20px;
+    margin-top: 20px;
 }
 h3
 {
@@ -109,4 +135,118 @@ h3
 #stippelijn
 {
     width: 100vw;
+    height: 10px;
+}
+.nav
+{
+    width: 100vw;
+    margin-left: 0;
+    float: left;
+    margin-top: 30px;
+    list-style-type: none;
+    font-size: 30px;
+
+}
+#azelftest
+{
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    margin-top: 10vh;
+}
+.logofooter
+{
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+footer
+{
+    height: 15vh;
+    background-color: #0085ca;
+}
+#blocken
+{
+    height: 60vh;
+}
+#ulnav
+{
+    text-align: center;
+}
+#menuheader
+{
+    float: right;
+    height: 10vh;
+}
+@media only screen and (min-width: 600px)
+{
+    #logo
+    {
+        float: left;
+        margin-left: 15px;
+    }
+    .anav
+    {
+        width: 10vw;
+        font-size: 20px;
+    }
+    .nav
+    {
+        width: 10vw;
+        margin-left: 80px;
+
+    }
+    #nav
+    {
+        margin-left: 30px;
+    }
+    #header
+    {
+        height: 25vh;
+        width: 100vw;
+    }
+    header
+    {
+        height: 25vh;
+    }
+    #banner
+    {
+        padding-top: 100px;
+    }
+}
+@media only screen and (min-width: 1200px)
+{
+    #logo
+    {
+        float: left;
+    }
+    .anav
+    {
+        width: 10vw;
+        font-size: 20px;
+    }
+    .nav
+    {
+        width: 10vw;
+        margin-left: 80px;
+
+    }
+    #nav
+    {
+        margin-left: 200px;
+    }
+    #header
+    {
+        height: 20vh;
+        width: 100vw;
+    }
+    header
+    {
+        position: fixed;
+    }
+    #banner
+    {
+        padding-top: 100px;
+    }
+
 }
