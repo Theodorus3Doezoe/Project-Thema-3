@@ -12,6 +12,7 @@
 <body>
 <?php
 include '../includes/nav.php';
+echo $_POST['q1']
 ?>
 <main>
     <div id="centerresults">

@@ -23,28 +23,30 @@
                         Vraag 1 Ben jij geïnteresseerd in technologie?
                     </p>
                     <form action="resultaten.php" method="post">
-                        <input type="radio" name="q1" value="q1.1">
+                        <input type="radio" name="q1" value="ja">
                         <label>
                             1.  Ja
                         </label>
                         <br>
 
-                        <input type="radio" name="q1" value="q1.2">
+                        <input type="radio" name="q1" value="Beetje">
                         <label>
                             2. Beetje
                         </label>
                         <br>
 
-                        <input type="radio" name="q1" value="q1.3">
+                        <input type="radio" name="q1" value="Niet echt">
                         <label>
                             3. Niet echt
                         </label>
                         <br>
 
-                        <input type="radio" name="q1" value="q1.4">
+                        <input type="radio" name="q1" value="Zeker niet">
                         <label>
                             4. Zeker niet
                         </label>
+                        <br>
+                        <input type="submit" value="Submit">
                     </form>
                 </div>
                 <!--vraag2-->
@@ -54,25 +56,25 @@
                     </p>
                     <form action="resultaten.php">
 
-                        <input type="radio" name="q2" value="q2.1">
+                        <input type="radio" name="q2" value="Ja">
                         <label>
                             1.  Ja
                         </label>
                         <br>
 
-                        <input type="radio" name="q2" value="q2.2">
+                        <input type="radio" name="q2" value="Ja een beetje">
                         <label>
                             2. Ja een beetje
                         </label>
                         <br>
 
-                        <input type="radio" name="q2" value="q2.3">
+                        <input type="radio" name="q2" value="ja maar niet leuk">
                         <label>
-                            3. ja, maar niet leuk
+                            3. ja maar niet leuk
                         </label>
                         <br>
 
-                        <input type="radio" name="q2" value="q2.4">
+                        <input type="radio" name="q2" value="nee">
                         <label>
                             4. nee
                         </label>
@@ -86,25 +88,25 @@
                     </p>
                     <form action="resultaten.php">
 
-                        <input type="radio" value="q3.1">
+                        <input type="radio" value="Ja">
                         <label>
                             1.  Ja
                         </label>
                         <br>
 
-                        <input type="radio" value="q3.2">
+                        <input type="radio" value="Beetje">
                         <label>
                             2. Beetje
                         </label>
                         <br>
 
-                        <input type="radio" value="q3.3">
+                        <input type="radio" value="weet ik niet">
                         <label>
                             3. weet ik niet
                         </label>
                         <br>
 
-                        <input type="radio" value="q3.4">
+                        <input type="radio" value="nee">
                         <label>
                             4. nee
                         </label>
@@ -118,25 +120,25 @@
 
                     <form action="resultaten.php">
 
-                        <input type="radio" value="q4.1">
+                        <input type="radio" value="Ja">
                         <label>
                             1.  Ja
                         </label>
                         <br>
 
-                        <input type="radio" value="q4.2">
+                        <input type="radio" value="Beetje">
                         <label>
                             2. Beetje
                         </label>
                         <br>
 
-                        <input type="radio" value="q4.3">
+                        <input type="radio" value="weet ik niet">
                         <label>
                             3. weet ik niet
                         </label>
                         <br>
 
-                        <input type="radio" value="q4.4">
+                        <input type="radio" value="nee">
                         <label>
                             4. nee
                         </label>
@@ -151,25 +153,25 @@
 
                     <form action="resultaten.php">
 
-                        <input type="radio" value="q5.1">
+                        <input type="radio" value="Ja">
                         <label>
                             1.  Ja
                         </label>
                         <br>
 
-                        <input type="radio" value="q5.2">
+                        <input type="radio" value="Beetje">
                         <label>
                             2. Beetje
                         </label>
                         <br>
 
-                        <input type="radio" value="q5.3">
+                        <input type="radio" value="weet ik niet">
                         <label>
                             3. weet ik niet
                         </label>
                         <br>
 
-                        <input type="radio" value="q5.4">
+                        <input type="radio" value="nee">
                         <label>
                             4. nee
                         </label>
@@ -184,25 +186,25 @@
 
                     <form action="resultaten.php">
 
-                        <input type="radio" name="q6" id="q6a1" value="q6.1">
+                        <input type="radio" name="q6" id="q6a1" value="Ja">
                         <label>
                             1.  Ja
                         </label>
                         <br>
 
-                        <input type="radio" name="q6" id="q6a2" value="q6.2">
+                        <input type="radio" name="q6" id="q6a2" value="Beetje">
                         <label>
                             2. Beetje
                         </label>
                         <br>
 
-                        <input type="radio" name="q6" id="q6a3" value="q6.3">
+                        <input type="radio" name="q6" id="q6a3" value="Soms">
                         <label>
                             3. Soms
                         </label>
                         <br>
 
-                        <input type="radio" name="q6" id="q6a4" value="q6.4">
+                        <input type="radio" name="q6" id="q6a4" value="nee">
                         <label>
                             4. nee
                         </label>
@@ -216,25 +218,25 @@
 
                     <form action="resultaten.php">
 
-                        <input type="radio" name="q7" id="q7a1" value="q7.1">
+                        <input type="radio" name="q7" id="q7a1" value="Ja">
                         <label>
                             1.  Ja
                         </label>
                         <br>
 
-                        <input type="radio" name="q7" id="q7a2" value="q7.2">
+                        <input type="radio" name="q7" id="q7a2" value="Beetje">
                         <label>
                             2. Beetje
                         </label>
                         <br>
 
-                        <input type="radio" name="q7" id="q7a3" value="q7.3">
+                        <input type="radio" name="q7" id="q7a3" value="Weet ik niet">
                         <label>
                             3. Weet ik niet
                         </label>
                         <br>
 
-                        <input type="radio" name="q7" id="q7a4" value="q7.4">
+                        <input type="radio" name="q7" id="q7a4" value="nee">
                         <label>
                             4. nee
                         </label>
@@ -246,25 +248,25 @@
                         Vraag 8 Lijkt het je leuk systemen te beheren
                     </p>
                     <form action="resultaten.php">
-                        <input type="radio" name="q8" id="q8a1" value="q8.1">
+                        <input type="radio" name="q8" id="q8a1" value="Ja">
                             <label>
                                 1.  Ja
                             </label>
                             <br>
 
-                            <input type="radio" name="q8" id="q8a2" value="q8.2">
+                            <input type="radio" name="q8" id="q8a2" value="Beetje">
                             <label>
                                 2. Beetje
                             </label>
                             <br>
 
-                            <input type="radio" name="q8" id="q8a3" value="q8.3">
+                            <input type="radio" name="q8" id="q8a3" value="Weet ik niet">
                             <label>
                                 3. Weet ik niet
                             </label>
                             <br>
 
-                            <input type="radio" name="q8" id="q8a4" value="q8.4">
+                            <input type="radio" name="q8" id="q8a4" value="nee">
                             <label>
                                 4. nee
                             </label>
@@ -279,25 +281,25 @@
 
                         <form action="resultaten.php">
 
-                            <input type="radio" name="q9" id="q9a1" value="q9.1">
+                            <input type="radio" name="q9" id="q9a1" value="Ja">
                             <label>
                                 1.  Ja
                             </label>
                             <br>
 
-                            <input type="radio" name="q9" id="q9a2" value="q9.2">
+                            <input type="radio" name="q9" id="q9a2" value="Beetje">
                             <label>
                                 2. Beetje
                             </label>
                             <br>
 
-                            <input type="radio" name="q9" id="q9a3" value="q9.3">
+                            <input type="radio" name="q9" id="q9a3" value="Weet ik niet">
                             <label>
                                 3. Weet ik niet
                             </label>
                             <br>
 
-                            <input type="radio" name="q9" id="q9a4" value="q9.4">
+                            <input type="radio" name="q9" id="q9a4" value="nee">
                             <label>
                                 4. nee
                             </label>
@@ -309,25 +311,25 @@
                         Vraag 10 Ben je bereid door te blijven leren om altijd op de hoogte te zijn van de nieuwste technieken en technologische ontwikkelingen die belangrijk kunnen zijn voor jouw beroep?
                     </p>
                     <form action="resultaten.php">
-                        <input type="radio" name="q10" id="q10a1" value="q10.1">
+                        <input type="radio" name="q10" id="q10a1" value="Ja">
                         <label>
                             1.  Ja
                         </label>
                         <br>
 
-                        <input type="radio" name="q10" id="q10a2" value="q10.2">
+                        <input type="radio" name="q10" id="q10a2" value="Misschien">
                         <label>
                             2. Misschien
                         </label>
                         <br>
 
-                        <input type="radio" name="q10" id="q10a3" value="q10.3">
+                        <input type="radio" name="q10" id="q10a3" value="Weet ik niet">
                         <label>
                             3. Weet ik niet
                         </label>
                         <br>
 
-                        <input type="radio" name="q10" id="q10a4" value="q10.4">
+                        <input type="radio" name="q10" id="q10a4" value="nee">
                         <label>
                             4. nee
                         </label>
@@ -341,25 +343,25 @@
 
                     <form action="resultaten.php">
 
-                        <input type="radio" name="q11" id="q11a1" value="q11.1">
+                        <input type="radio" name="q11" id="q11a1" value="Ja">
                         <label>
                             1.  Ja
                         </label>
                         <br>
 
-                        <input type="radio" name="q11" id="q11a2" value="q11.2">
+                        <input type="radio" name="q11" id="q11a2" value="Beetje">
                         <label>
                             2. Beetje
                         </label>
                         <br>
 
-                        <input type="radio" name="q11" id="q11a3" value="q11.3">
+                        <input type="radio" name="q11" id="q11a3" value="Weet ik niet">
                         <label>
                             3. Weet ik niet
                         </label>
                         <br>
 
-                        <input type="radio" name="q11" id="q11a4" value="q11.4">
+                        <input type="radio" name="q11" id="q11a4" value="nee">
                         <label>
                             4. nee
                         </label>
@@ -373,25 +375,25 @@
 
                     <form action="resultaten.php">
 
-                        <input type="radio" name="q12" id="q12a1" value="q12.1">
+                        <input type="radio" name="q12" id="q12a1" value="Ja">
                         <label>
                             1.  Ja
                         </label>
                         <br>
 
-                        <input type="radio" name="q12" id="q12a2" value="q12.2">
+                        <input type="radio" name="q12" id="q12a2" value="Beetje">
                         <label>
                             2. Beetje
                         </label>
                         <br>
 
-                        <input type="radio" name="q12" id="q12a3" value="q12.3">
+                        <input type="radio" name="q12" id="q12a3" value="Weet ik niet">
                         <label>
                             3. Weet ik niet
                         </label>
                         <br>
 
-                        <input type="radio" name="q12" id="q12a4" value="q12.4">
+                        <input type="radio" name="q12" id="q12a4" value="nee">
                         <label>
                             4. nee
                         </label>
@@ -400,7 +402,7 @@
                 <!--versturen-->
                 <div class="Slide">
                     <p>u bent klaar met de test</p>
-                    <form action="resultaten.php">
+                    <form action="resultaten.php" method="post">
                             <input type="checkbox">
                             <label >
                                 ik ga akkoord met de algemene voorwaarden

@@ -1,210 +1,198 @@
 <?php
 function addpoints()
 {
-    $points = 100;
-    if (isset($_POST['q1']) == "ja")
+    $points = 0;
+    if (isset($_POST['q1']))
     {
-        $points = $points + 20;
-    }
-    if (isset($_POST['q1']) == "beetje")
-    {
-        $points = $points + 15;
-    }
-    if (isset($_POST['q1']) == "niet echt")
-    {
-        $points = $points + 10;
-    }
-    if (isset($_POST['q1']) == "zeker niet")
-    {
-        $points = $points + 5;
+        if ($_POST['q1'] == "ja")
+        {
+            $points = $points + 20;
+        }
+        if ($_POST['q1'] == "beetje")
+        {
+            $points = $points + 15;
+        }
+        if ($_POST['q1'] == "niet echt")
+        {
+            $points = $points + 10;
+        }
+        if ($_POST['q1'] == "zeker niet")
+        {
+            $points = $points + 5;
+        }
     }
 //        vraag 2
-    if (isset($_POST['q2']) == "ja")
-    {
-        $points = $points + 15;
-    }
-    if (isset($_POST['q2']) == "ja een beetje")
-    {
-        $points = $points + 10;
-    }
-    if (isset($_POST['q2']) == "ja maar niet leuk")
-    {
-        $points = $points + 5;
-    }
-    if (isset($_POST['q2']) == "nee")
-    {
-        $points = $points - 5;
+
+    if (isset($_POST['q2'])) {
+        if ($_POST['q2'] == "ja") {
+            $points = $points + 15;
+        }
+        if ($_POST['q2'] == "ja een beetje") {
+            $points = $points + 10;
+        }
+        if ($_POST['q2'] == "ja maar niet leuk") {
+            $points = $points + 5;
+        }
+        if ($_POST['q2'] == "nee") {
+            $points = $points - 5;
+        }
     }
     //        vraag 3
-    if (isset($_POST['q3']) == "ja")
-    {
-        $points = $points + 15;
-    }
-    if (isset($_POST['q3']) == "beetje")
-    {
-        $points = $points + 10;
-    }
-    if (isset($_POST['q3']) == "weet ik niet")
-    {
-        $points = $points + 5;
-    }
-    if (isset($_POST['q3']) == "nee")
-    {
-        $points = $points - 5;
+    if (isset($_POST['q3'])) {
+        if ($_POST['q3'] == "ja") {
+            $points = $points + 15;
+        }
+        if ($_POST['q3'] == "beetje") {
+            $points = $points + 10;
+        }
+        if ($_POST['q3'] == "weet ik niet") {
+            $points = $points + 5;
+        }
+        if ($_POST['q3'] == "nee") {
+            $points = $points - 5;
+        }
     }
     //        vraag 4
-    if (isset($_POST['q4']) == "ja")
-    {
-        $points = $points + 15;
-    }
-    if (isset($_POST['q4']) == "beetje")
-    {
-        $points = $points + 10;
-    }
-    if (isset($_POST['q4']) == "weet ik niet")
-    {
-        $points = $points + 5;
-    }
-    if (isset($_POST['q4']) == "nee")
-    {
-        $points = $points - 5;
+    if (isset($_POST['q4'])) {
+        if ($_POST['q4'] == "ja") {
+            $points = $points + 15;
+        }
+        if ($_POST['q4'] == "beetje") {
+            $points = $points + 10;
+        }
+        if ($_POST['q4'] == "weet ik niet") {
+            $points = $points + 5;
+        }
+        if ($_POST['q4'] == "nee") {
+            $points = $points - 5;
+        }
     }
     //        vraag 5
-    if (isset($_POST['q5']) == "ja")
-    {
-        $points = $points + 15;
-    }
-    if (isset($_POST['q5']) == "beetje")
-    {
-        $points = $points + 10;
-    }
-    if (isset($_POST['q5']) == "weet ik niet")
-    {
-        $points = $points + 5;
-    }
-    if (isset($_POST['q5']) == "nee")
-    {
-        $points = $points - 5;
+    if (isset($_POST['q5'])) {
+        if ($_POST['q5'] == "ja") {
+            $points = $points + 15;
+        }
+        if ($_POST['q5'] == "beetje") {
+            $points = $points + 10;
+        }
+        if ($_POST['q5'] == "weet ik niet") {
+            $points = $points + 5;
+        }
+        if ($_POST['q5'] == "nee") {
+            $points = $points - 5;
+        }
     }
     //        vraag 6
-    if (isset($_POST['q6']) == "ja")
-    {
-        $points = $points + 15;
-    }
-    if (isset($_POST['q6']) == "beetje")
-    {
-        $points = $points + 10;
-    }
-    if (isset($_POST['q6']) == "soms")
-    {
-        $points = $points + 5;
-    }
-    if (isset($_POST['q6']) == "nee")
-    {
-        $points = $points - 5;
+    if (isset($_POST['q6'])) {
+        if ($_POST['q6'] == "ja") {
+            $points = $points + 15;
+        }
+        if ($_POST['q6'] == "beetje") {
+            $points = $points + 10;
+        }
+        if ($_POST['q6'] == "soms") {
+            $points = $points + 5;
+        }
+        if ($_POST['q6'] == "nee") {
+            $points = $points - 5;
+        }
     }
     //        vraag 7
-    if (isset($_POST['q7']) == "ja")
-    {
-        $points = $points + 15;
-    }
-    if (isset($_POST['q7']) == "beetje")
-    {
-        $points = $points + 10;
-    }
-    if (isset($_POST['q7']) == "weet ik niet")
-    {
-        $points = $points + 5;
-    }
-    if (isset($_POST['q7']) == "nee")
-    {
-        $points = $points - 5;
+    if (isset($_POST['q7'])) {
+        if ($_POST['q7'] == "ja") {
+            $points = $points + 15;
+        }
+        if ($_POST['q7'] == "beetje") {
+            $points = $points + 10;
+        }
+        if ($_POST['q7'] == "weet ik niet") {
+            $points = $points + 5;
+        }
+        if ($_POST['q7'] == "nee") {
+            $points = $points - 5;
+        }
     }
     //        vraag 8
-    if (isset($_POST['q8']) == "ja")
-    {
-        $points = $points + 15;
-    }
-    if (isset($_POST['q8']) == "beetje")
-    {
-        $points = $points + 10;
-    }
-    if (isset($_POST['q8']) == "weet ik niet")
-    {
-        $points = $points + 5;
-    }
-    if (isset($_POST['q8']) == "nee")
-    {
-        $points = $points - 5;
+    if (isset($_POST['q8'])) {
+        if ($_POST['q8'] == "ja") {
+            $points = $points + 15;
+        }
+        if ($_POST['q8'] == "beetje") {
+            $points = $points + 10;
+        }
+        if ($_POST['q8'] == "weet ik niet") {
+            $points = $points + 5;
+        }
+        if ($_POST['q8'] == "nee") {
+            $points = $points - 5;
+        }
     }
     //        vraag 9
-    if (isset($_POST['q9']) == "ja")
+    if (isset($_POST['q9']))
     {
-        $points = $points + 15;
-    }
-    if (isset($_POST['q9']) == "beetje")
-    {
-        $points = $points + 10;
-    }
-    if (isset($_POST['q9']) == "weet ik niet")
-    {
-        $points = $points + 5;
-    }
-    if (isset($_POST['q9']) == "nee")
-    {
-        $points = $points - 5;
+        if ($_POST['q9'] == "ja")
+        {
+            $points = $points + 15;
+        }
+        if ($_POST['q9'] == "beetje")
+        {
+            $points = $points + 10;
+        }
+        if ($_POST['q9'] == "weet ik niet")
+        {
+            $points = $points + 5;
+        }
+        if ($_POST['q9'] == "nee")
+        {
+            $points = $points - 5;
+        }
     }
     //        vraag 10
-    if (isset($_POST['q10']) == "ja")
-    {
-        $points = $points + 15;
-    }
-    if (isset($_POST['q10']) == "beetje")
-    {
-        $points = $points + 10;
-    }
-    if (isset($_POST['q10']) == "weet ik niet")
-    {
-        $points = $points + 5;
-    }
-    if (isset($_POST['q10']) == "nee")
-    {
-        $points = $points - 5;
+    if (isset($_POST['q10'])) {
+        if ($_POST['q10'] == "ja") {
+            $points = $points + 15;
+        }
+        if ($_POST['q10'] == "beetje") {
+            $points = $points + 10;
+        }
+        if ($_POST['q10'] == "weet ik niet") {
+            $points = $points + 5;
+        }
+        if ($_POST['q10'] == "nee") {
+            $points = $points - 5;
+        }
     }
     //        vraag 11
-    if (isset($_POST['q11']) == "ja")
-    {
-        $points = $points + 15;
-    }
-    if (isset($_POST['q11']) == "beetje")
-    {
-        $points = $points + 10;
-    }
-    if (isset($_POST['q11']) == "weet ik niet")
-    {
-        $points = $points + 5;
-    }
-    if (isset($_POST['q11']) == "nee")
-    {
-        $points = $points - 5;
+    if (isset($_POST['q11'])) {
+        if ($_POST['q11'] == "ja") {
+            $points = $points + 15;
+        }
+        if ($_POST['q11'] == "beetje") {
+            $points = $points + 10;
+        }
+        if ($_POST['q11'] == "weet ik niet") {
+            $points = $points + 5;
+        }
+        if ($_POST['q11'] == "nee") {
+            $points = $points - 5;
+        }
     }
     //        vraag 12
-    if (isset($_POST['q12']) == "ja")
-    {
-        $points = $points + 15;
+    if (isset($_POST['q12'])) {
+        if ($_POST['q12'] == "ja") {
+            $points = $points + 15;
+        }
+        if ($_POST['q12'] == "beetje") {
+            $points = $points + 10;
+        }
+        if ($_POST['q12'] == "weet ik niet") {
+            $points = $points + 5;
+        }
+        if ($_POST['q12'] == "nee") {
+            $points = $points - 5;
+        }
     }
-    if (isset($_POST['q12']) == "beetje")
-    {
-        $points = $points + 10;
-    }
-    if (isset($_POST['q12']) == "weet ik niet")
-    {
-        $points = $points + 5;
-    }
-    if (isset($_POST['q12']) == "nee")
-    {
-        $points = $points - 5;
-    }
+    echo $points;
     if ($points < 80)
     {
         echo "<h2>Wij denken dat een ICT opleiding niet bij jou past.</h2>";
@@ -223,7 +211,7 @@ function addpoints()
     function showanswers()
     {
         echo "<h2>jouw antwoorden</h2>";
-        if (isset($_GET['q1']) == true)
+        if (isset($_GET['q1']))
         {
             echo "<h3>Vraag 1 Ben jij geïnteresseerd in technologie?</h3>";
             echo $_GET['q1'];
