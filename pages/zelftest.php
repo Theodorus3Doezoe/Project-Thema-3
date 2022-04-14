@@ -18,8 +18,8 @@
 <main>
     <div class="slideshow-container">
         <!--vraag1-->
-        <div class="Slide">
             <form action="resultaten.php" method="post">
+                <div class="Slide">
                     <p>
                         Vraag 1 Ben jij geïnteresseerd in technologie?
                     </p>
@@ -46,7 +46,6 @@
                             4. Zeker niet
                         </label>
                         <br>
-
                 </div>
                 <!--vraag2-->
                 <div class="Slide">
@@ -87,25 +86,25 @@
                     </p>
 
 
-                        <input type="radio" value="Ja">
+                        <input type="radio" name="q3" value="Ja">
                         <label>
                             1.  Ja
                         </label>
                         <br>
 
-                        <input type="radio" value="Beetje">
+                        <input type="radio" name="q3" value="Beetje">
                         <label>
                             2. Beetje
                         </label>
                         <br>
 
-                        <input type="radio" value="weet ik niet">
+                        <input type="radio" name="q3" value="weet ik niet">
                         <label>
                             3. weet ik niet
                         </label>
                         <br>
 
-                        <input type="radio" value="nee">
+                        <input type="radio" name="q3" value="nee">
                         <label>
                             4. nee
                         </label>
@@ -119,25 +118,25 @@
 
 
 
-                        <input type="radio" value="Ja">
+                        <input type="radio" name="q4" value="Ja">
                         <label>
                             1.  Ja
                         </label>
                         <br>
 
-                        <input type="radio" value="Beetje">
+                        <input type="radio" name="q4" value="Beetje">
                         <label>
                             2. Beetje
                         </label>
                         <br>
 
-                        <input type="radio" value="weet ik niet">
+                        <input type="radio" name="q4" value="weet ik niet">
                         <label>
                             3. weet ik niet
                         </label>
                         <br>
 
-                        <input type="radio" value="nee">
+                        <input type="radio" name="q4" value="nee">
                         <label>
                             4. nee
                         </label>
@@ -152,25 +151,25 @@
 
 
 
-                        <input type="radio" value="Ja">
+                        <input type="radio" name="q5" value="Ja">
                         <label>
                             1.  Ja
                         </label>
                         <br>
 
-                        <input type="radio" value="Beetje">
+                        <input type="radio" name="q5" value="Beetje">
                         <label>
                             2. Beetje
                         </label>
                         <br>
 
-                        <input type="radio" value="weet ik niet">
+                        <input type="radio" name="q5" value="weet ik niet">
                         <label>
                             3. weet ik niet
                         </label>
                         <br>
 
-                        <input type="radio" value="nee">
+                        <input type="radio" name="q5" value="nee">
                         <label>
                             4. nee
                         </label>
