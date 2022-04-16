@@ -1,3 +1,8 @@
+<!--
+arthor lex schenning, Ricky  Severins, Sven dinkla
+date 16-4-2022
+zelftest score
+-->
 <?php
 function addpoints()
 {

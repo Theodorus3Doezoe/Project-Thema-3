@@ -1,3 +1,8 @@
+<!--
+arthor lex schenning, Ricky  Severins, Sven dinkla
+date 16-4-2022
+slider van de zelftest pagina
+-->
 let slideIndex = 1;
 showSlides(slideIndex);
 

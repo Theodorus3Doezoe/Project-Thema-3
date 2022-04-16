@@ -1,5 +1,8 @@
-<?php
-?>
+<!--
+arthor lex schenning, Ricky  Severins, Sven dinkla
+date 16-4-2022
+zelftest pagina
+-->
 <!doctype html>
 <html lang="en">
 <head>
@@ -17,8 +20,11 @@
 </header>
 <main>
     <div class="slideshow-container">
+        <form action="resultaten.php" method="post">
+                <div class="Slide"
+                    <input type="text" name="name">
+                </div>
         <!--vraag1-->
-            <form action="resultaten.php" method="post">
                 <div class="Slide">
                     <p>
                         Vraag 1 Ben jij geïnteresseerd in technologie?
@@ -406,7 +412,7 @@
                         <br>
                         <input type="submit" value="Submit">
                 </div>
-
+        </form>
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
@@ -425,6 +431,7 @@
         <span class="dot" onclick="currentSlide(11)"></span>
         <span class="dot" onclick="currentSlide(12)"></span>
         <span class="dot" onclick="currentSlide(13)"></span>
+        <span class="dot" onclick="currentSlide(14)"></span>
     </div>
 </main>
 <footer>

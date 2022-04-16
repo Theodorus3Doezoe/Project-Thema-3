@@ -1,3 +1,8 @@
+<!--
+arthor lex schenning, Ricky  Severins, Sven dinkla
+date 16-4-2022
+footer include
+-->
 <footer>
     <a href="#">
         privacyverklaring
