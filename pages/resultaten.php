@@ -35,7 +35,6 @@ include '../includes/nav.php';
         addpoints();
 //        dit roept de functie aan die je antwoorden laat zien
         showanswers();
-        puntenpervraag()
         ?>
     </div>
 </main>
