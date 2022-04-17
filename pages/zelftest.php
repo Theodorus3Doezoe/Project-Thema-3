@@ -12,7 +12,6 @@ zelftest pagina
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="../styles/style-zelftestpagina.css">
-    <script src="../scripts/script.js"></script>
 </head>
 <body>
 <header>
