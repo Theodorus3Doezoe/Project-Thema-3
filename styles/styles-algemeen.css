@@ -16,6 +16,7 @@ body
     max-width: 100%;
     overflow-x: hidden;
 }
+/*hier word het lettertype toegevoegd*/
 @font-face
 {
     src: url("../fonts/Sintony-Regular.ttf");
@@ -213,7 +214,7 @@ footer
         padding-top: 100px;
     }
 }
-/*@media zegt at deze code alleen moet worden uitgevoerd als het scherm minimaal 1250px groot is*/
+/*@media zegt at deze code alleen moet worden uitgevoerd als het scherm minimaal 1100px groot is*/
 @media only screen and (min-width: 1100px)
 {
     #logo
