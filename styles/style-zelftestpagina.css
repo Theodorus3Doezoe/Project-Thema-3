@@ -1,10 +1,8 @@
-
-/*name Lex Schenning*/
-/*date 28-2-2022*/
-/*subject project T3*/
 /*arthor lex schenning, Ricky  Severins, Sven dinkla*/
 /*date 16-4-2022*/
 /*zelftest pagina css*/
+
+/*achter grond foto*/
 body
 {
     background-image: url("../images/KW1C-voorplein-drama-klein.jpg");
@@ -13,9 +11,7 @@ body
     background-size: cover;
 
 }
-* {box-sizing:border-box}
-
-/* Slideshow container */
+/*container waar de vragen in zitten*/
 #container {
     max-width: 1000px;
     position: relative;
@@ -25,6 +21,7 @@ body
     margin-top: 300px;
 
 }
+/*container waar de uitleg in zit*/
 #uitleg
 {
 
@@ -36,21 +33,42 @@ body
     padding-bottom: 5px;
     text-align: center;
 }
+/*class van de containers waar vragen in zitten*/
 .vraag
 {
     border: #808080 5px solid;
     margin: 50px;
 }
-p, #slidenummer
-{
-    text-align: center;
-
-}
+/**/
 input, #voorwaarden, #fname, #lname
 {
     margin-left: 400px;
 }
-#voorwaarden
+/* centreren van text*/
+#voorwaarden, p
 {
     text-align: center;
+}
+/*responsive*/
+@media only screen and (max-width: 1000px)
+{
+    input, #voorwaarden, #fname, #lname
+    {
+        margin-left: 25px;
+    }
+    #submit
+    {
+        margin-left: 80px;
+    }
+}
+@media only screen and (width: 820px)
+{
+    input, #voorwaarden, #fname, #lname
+    {
+        margin-left: 300px;
+    }
+    #submit
+    {
+        margin-left: 300px;
+    }
 }
