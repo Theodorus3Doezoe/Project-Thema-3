@@ -4,6 +4,9 @@ date 16-4-2022
 resultaten pagina
 -->
 <!doctype html>
+<!--name Ricky Severins-->
+<!--date 28-2-2022-->
+<!--subject project T3-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,8 +19,8 @@ resultaten pagina
 </head>
 <body>
 <?php
+//deze include laat de navigatie zien
 include '../includes/nav.php';
-echo $_POST['q1']
 ?>
 <main>
     <div id="centerresults">
@@ -26,13 +29,18 @@ echo $_POST['q1']
             resultaat zelftest
         </h1>
         <?php
+//        in deze include staan alle functies
         include_once '../includes/functions.php';
+//        dit roept de functie aan die de punten optelt
         addpoints();
+//        dit roept de functie aan die je antwoorden laat zien
         showanswers();
+        puntenpervraag()
         ?>
     </div>
 </main>
 <?php
+//in deze include staat de footer
 include '../includes/footer.php';
 ?>
 </body>

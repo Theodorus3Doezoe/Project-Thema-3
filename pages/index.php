@@ -4,6 +4,9 @@ date 16-4-2022
 home pagina
 -->
 <!doctype html>
+<!--name Ricky Severins-->
+<!--date 28-2-2022-->
+<!--subject project T3 -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">

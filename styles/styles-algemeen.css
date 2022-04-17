@@ -1,15 +1,22 @@
+<<<<<<< HEAD
+/*name Ricky Severins/Lex Schenning */
+/*date 28-2-2022*/
+/*subject project T3*/
+
+    /*Navbar styling*/
+=======
 /*arthor lex schenning, Ricky  Severins, Sven dinkla*/
 /*date 16-4-2022*/
 /*algemeene css*/
 
 /*Navbar styling*/
+>>>>>>> origin/master
 *
 {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     color: white;
-    /*border: solid black 3px;*/
 }
 body
 {
@@ -176,6 +183,7 @@ footer
 {
     text-align: center;
 }
+/*deze code word alleen uitgevoerd als het scherm 700px groot is*/
 @media only screen and (min-width: 700px)
 {
     #logo
@@ -212,7 +220,8 @@ footer
         padding-top: 100px;
     }
 }
-@media only screen and (min-width: 1200px)
+/*@media zegt at deze code alleen moet worden uitgevoerd als het scherm minimaal 1250px groot is*/
+@media only screen and (min-width: 1250px)
 {
     #logo
     {
