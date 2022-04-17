@@ -1,7 +1,7 @@
 
-/*name Ricky Severins */
-/*date 28-2-2022*/
-/*subject pagina css*/
+/*arthor lex schenning, Ricky  Severins, Sven dinkla*/
+/*date 16-4-2022*/
+/*resultaten pagina css*/
 #centerresults
 {
     text-align: center;
@@ -10,6 +10,7 @@ h3
 {
     margin: 30px;
 }
+/*foto van het bijhored beroep*/
 .imgresults
 {
     width: 500px;
