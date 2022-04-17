@@ -197,6 +197,51 @@ function addpoints()
             $points = $points - 5;
         }
     }
+    //        vraag 13
+    if (isset($_POST['q13'])) {
+        if ($_POST['q13'] == "ja") {
+            $points = $points + 15;
+        }
+        if ($_POST['q13'] == "beetje") {
+            $points = $points + 10;
+        }
+        if ($_POST['q13'] == "weet ik niet") {
+            $points = $points + 5;
+        }
+        if ($_POST['q13'] == "nee") {
+            $points = $points - 5;
+        }
+    }
+    //        vraag 14
+    if (isset($_POST['q14'])) {
+        if ($_POST['q14'] == "ja") {
+            $points = $points + 15;
+        }
+        if ($_POST['q14'] == "beetje") {
+            $points = $points + 10;
+        }
+        if ($_POST['q14'] == "weet ik niet") {
+            $points = $points + 5;
+        }
+        if ($_POST['q14'] == "nee") {
+            $points = $points - 5;
+        }
+    }
+    //        vraag 15
+    if (isset($_POST['q15'])) {
+        if ($_POST['q15'] == "ja") {
+            $points = $points + 15;
+        }
+        if ($_POST['q15'] == "beetje") {
+            $points = $points + 10;
+        }
+        if ($_POST['q15'] == "weet ik niet") {
+            $points = $points + 5;
+        }
+        if ($_POST['q15'] == "nee") {
+            $points = $points - 5;
+        }
+    }
     echo $points;
     if ($points < 80)
     {
@@ -336,6 +381,35 @@ function addpoints()
             echo "<h3>Vraag 12 Lijkt het je leuk mensen binnen een bedrijf/organisatie te helpen als hun problemen hebben met hun apparaten?</h3>";
             echo "je hebt deze vraag niet ingevuld";
         }
-
+        if (isset($_GET['q13']) == true)
+        {
+            echo "<h3>Vraag 13 heb je ooit een keer een robot willen maken?</h3>";
+            echo $_GET['q13'];
+        }
+        else
+        {
+            echo "<h3>Vraag 13 heb je ooit een keer een robot willen maken?</h3>";
+            echo "je hebt deze vraag niet ingevuld";
+        }
+        if (isset($_GET['q14']) == true)
+        {
+            echo "<h3>Vraag 14 heb je veel technisch inzicht?</h3>";
+            echo $_GET['q14'];
+        }
+        else
+        {
+            echo "<h3>Vraag 14 heb je veel technisch inzicht?</h3>";
+            echo "je hebt deze vraag niet ingevuld";
+        }
+        if (isset($_GET['q15']) == true)
+        {
+            echo "<h3>Vraag 15 kan je goed in een team werken?</h3>";
+            echo $_GET['q15'];
+        }
+        else
+        {
+            echo "<h3>Vraag 15 kan je goed in een team werken?</h3>";
+            echo "je hebt deze vraag niet ingevuld";
+        }
     }
 }

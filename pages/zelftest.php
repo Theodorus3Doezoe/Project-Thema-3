@@ -88,7 +88,7 @@ zelftest pagina
                 <!--vraag3-->
                 <div class="Slide">
                     <p>
-                        Vraag 3 Lijkt programmeren je interessant
+                        Vraag 3 Lijkt programmeren je interessant?
                     </p>
 
 
@@ -249,7 +249,7 @@ zelftest pagina
                 <!--vraag8-->
                 <div class="Slide">
                     <p>
-                        Vraag 8 Lijkt het je leuk systemen te beheren
+                        Vraag 8 Lijkt het je leuk systemen te beheren?
                     </p>
 
                         <input type="radio" name="q8" id="q8a1" value="Ja">
@@ -280,7 +280,7 @@ zelftest pagina
                 <div class="Slide">
 
                         <p>
-                            Vraag 9 Lijkt het je leuk netwerken op te zetten voor bijvoorbeeld een bedrijf.
+                            Vraag 9 Lijkt het je leuk netwerken op te zetten voor bijvoorbeeld een bedrijf?
                         </p>
 
 
@@ -401,7 +401,97 @@ zelftest pagina
                             4. nee
                         </label>
                 </div>
-                <!--versturen-->
+            <!--vraag 13-->
+                <div class="Slide">
+                    <p>
+                        Vraag 13 heb je ooit een keer een robot willen maken?
+                    </p>
+
+
+                    <input type="radio" name="q13" id="q13a1" value="Ja">
+                    <label>
+                        1.  Ja
+                    </label>
+                    <br>
+
+                    <input type="radio" name="q13" id="q13a2" value="Beetje">
+                    <label>
+                        2. Beetje
+                    </label>
+                    <br>
+
+                    <input type="radio" name="q13" id="q13a3" value="Weet ik niet">
+                    <label>
+                        3. Weet ik niet
+                    </label>
+                    <br>
+
+                    <input type="radio" name="q13" id="q13a4" value="nee">
+                    <label>
+                        4. nee
+                    </label>
+                </div>
+                <!--vraag 14-->
+                <div class="Slide">
+                    <p>
+                        Vraag 14 heb je veel technisch inzicht?
+                    </p>
+
+
+                    <input type="radio" name="q14" id="q14a1" value="Ja">
+                    <label>
+                        1.  Ja
+                    </label>
+                    <br>
+
+                    <input type="radio" name="q14" id="q14a2" value="Beetje">
+                    <label>
+                        2. Beetje
+                    </label>
+                    <br>
+
+                    <input type="radio" name="q14" id="q14a3" value="Weet ik niet">
+                    <label>
+                        3. Weet ik niet
+                    </label>
+                    <br>
+
+                    <input type="radio" name="q14" id="q14a4" value="nee">
+                    <label>
+                        4. nee
+                    </label>
+                </div>
+                <!--vraag 15-->
+                <div class="Slide">
+                    <p>
+                        Vraag 15 kan je goed in een team werken?
+                    </p>
+
+
+                    <input type="radio" name="q15" id="q15a1" value="Ja">
+                    <label>
+                        1.  Ja
+                    </label>
+                    <br>
+
+                    <input type="radio" name="q15" id="q15a2" value="Beetje">
+                    <label>
+                        2. Beetje
+                    </label>
+                    <br>
+
+                    <input type="radio" name="q15" id="q15a3" value="Weet ik niet">
+                    <label>
+                        3. Weet ik niet
+                    </label>
+                    <br>
+
+                    <input type="radio" name="q15" id="q15a4" value="nee">
+                    <label>
+                        4. nee
+                    </label>
+                </div>
+            <!--versturen-->
                 <div class="Slide">
                     <p>u bent klaar met de test</p>
                         <input type="checkbox">
@@ -432,6 +522,8 @@ zelftest pagina
         <span class="dot" onclick="currentSlide(12)"></span>
         <span class="dot" onclick="currentSlide(13)"></span>
         <span class="dot" onclick="currentSlide(14)"></span>
+        <span class="dot" onclick="currentSlide(15)"></span>
+        <span class="dot" onclick="currentSlide(16)"></span>
     </div>
 </main>
 <footer>
