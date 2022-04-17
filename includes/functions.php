@@ -246,17 +246,19 @@ function addpoints()
     if ($points < 80)
     {
         echo "<h2>Wij denken dat een ICT opleiding niet bij jou past.</h2>";
-        echo "<img class='imgresults' src='../images/niksvoorjou.jpg' alt='niksvoorjou'>";
+        echo "<img class='imgresults' src='../images/niksvoorjou.jpg' alt='niksvoorjou'>"  . "<br>";
     }
     elseif ($points > 80 && $points < 120)
     {
         echo "<h2>Wij denken dat Software development een opleiding voor jou is.</h2>";
-        echo "<img class='imgresults' src='../images/softwaredeveloper.webp' alt='niksvoorjou'>";
+        echo "<img class='imgresults' src='../images/softwaredeveloper.webp' alt='niksvoorjou'>" . "<br>";
+        echo "<a id='link' href='https://www.kw1c.nl/opleiding/25604o10/software-developer-bol'>klik hier voor meer informatie</a>";
     }
     else
     {
         echo "<h2>Wij denken dat Expert IT Systems and Devices een opleiding voor jou is.</h2>";
         echo "<img class='imgresults' src='../images/systeembeheer.jpg' alt=''>";
+        echo "<a href='https://www.kw1c.nl/opleiding/25606o10/expert-it-systems-and-devices-bol'>klik hier voor meer informatie</a>"  . "<br>";
     }
     function showanswers()
     {
