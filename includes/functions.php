@@ -7,22 +7,17 @@ zelftest score
 function addpoints()
 {
     $points = 0;
-    if (isset($_POST['q1']))
-    {
-        if ($_POST['q1'] == "Ja")
-        {
+    if (isset($_POST['q1'])) {
+        if ($_POST['q1'] == "Ja") {
             $points = $points + 20;
         }
-        if ($_POST['q1'] == "Beetje")
-        {
+        if ($_POST['q1'] == "Beetje") {
             $points = $points + 15;
         }
-        if ($_POST['q1'] == "Niet echt")
-        {
+        if ($_POST['q1'] == "Niet echt") {
             $points = $points + 10;
         }
-        if ($_POST['q1'] == "Zeker niet")
-        {
+        if ($_POST['q1'] == "Zeker niet") {
             $points = $points + 5;
         }
     }
@@ -133,22 +128,17 @@ function addpoints()
         }
     }
     //        vraag 9
-    if (isset($_POST['q9']))
-    {
-        if ($_POST['q9'] == "Ja")
-        {
+    if (isset($_POST['q9'])) {
+        if ($_POST['q9'] == "Ja") {
             $points = $points + 15;
         }
-        if ($_POST['q9'] == "Beetje")
-        {
+        if ($_POST['q9'] == "Beetje") {
             $points = $points + 10;
         }
-        if ($_POST['q9'] == "Weet ik niet")
-        {
+        if ($_POST['q9'] == "Weet ik niet") {
             $points = $points + 5;
         }
-        if ($_POST['q9'] == "Nee")
-        {
+        if ($_POST['q9'] == "Nee") {
             $points = $points - 5;
         }
     }
@@ -243,20 +233,21 @@ function addpoints()
         }
     }
     echo "<H1>hallo " . $_POST["fname"] . " " . $_POST["lname"] . "</H1>";
-    echo "Je hebt " . $points . " punten gehaald";
-    if ($points < 80)
+    $punten = array(20, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15,);
+    $sum = 0;
+    foreach($punten as $key=>$value)
     {
-        echo "<h2>Wij denken dat een ICT opleiding niet bij jou past.</h2>";
-        echo "<img class='imgresults' src='../images/niksvoorjou.jpg' alt='niksvoorjou'>"  . "<br>";
+        $sum+= $value ;
     }
-    elseif ($points > 80 && $points < 120)
-    {
+    echo "je hebt " . $points . " van de " . $sum . " punten gehaald.";
+    if ($points < 80) {
+        echo "<h2>Wij denken dat een ICT opleiding niet bij jou past.</h2>";
+        echo "<img class='imgresults' src='../images/niksvoorjou.jpg' alt='niksvoorjou'>" . "<br>";
+    } elseif ($points > 80 && $points < 120) {
         echo "<h2>Wij denken dat Software development een opleiding voor jou is.</h2>";
         echo "<img class='imgresults' src='../images/softwaredeveloper.webp' alt='niksvoorjou'>" . "<br>";
         echo "<br><a id='link' href='https://www.kw1c.nl/opleiding/25604o10/software-developer-bol'>klik hier voor meer informatie</a><br>";
-    }
-    else
-    {
+    } else {
         echo "<h2>Wij denken dat Expert IT Systems and Devices een opleiding voor jou is.</h2>";
         echo "<img class='imgresults' src='../images/systeembeheer.jpg' alt=''>";
         echo "<br><a href='https://www.kw1c.nl/opleiding/25606o10/expert-it-systems-and-devices-bol'>klik hier voor meer informatie</a><br>";
@@ -418,10 +409,11 @@ function addpoints()
     }
     function puntenpervraag()
     {
-        $punten = array(20, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15,);
+
         echo "<h1> maximaal aantal punten per vraag.</h1>";
-        for($counter = 0; $counter < 15; $counter++)
-        {
-            echo "<br>bij vraag " . $counter + 1 . " kon je maximaal " . $punten[$counter] . " punten halen<br>";
+        $punten = array(20, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15,);
+        for ($counter = 0; $counter < 15; $counter++) {
+            echo "<br>bij vraag " . $counter + 1 . " kon je " . $punten[$counter] . " punten halen<br>";
         }
+
     }
