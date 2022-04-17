@@ -4,9 +4,6 @@ date 16-4-2022
 home pagina
 -->
 <!doctype html>
-<!--name Ricky Severins-->
-<!--date 28-2-2022-->
-<!--subject project T3 -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,18 +11,20 @@ home pagina
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Koning Willem 1 College</title>
+<!--    link -->
     <link rel="icon" href="images/favicon-32x32.png">
+<!--    link naar stylesheet-->
     <link rel="stylesheet" href="../styles/styles-algemeen.css">
 </head>
 <body>
 <?php include '../includes/nav.php';?>
 <div id="pzelftest">
+<!--    link naar zelftest pagina-->
     <a id="zelftestknop" href="zelftest.php">zelftest</a>
 </div>
     <div id="banner">
     </div>
     <main>
-
         <img id="stippelijn" src="../images/gestippelde%20lijn.png" alt="stippellijn">
         <h1>
             ICT-Acedemie
