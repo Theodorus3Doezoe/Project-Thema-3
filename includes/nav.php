@@ -26,4 +26,9 @@ navigatie include
             </div>
         </ul>
     </div>
+        <?php
+        date_default_timezone_set("Europe/Amsterdam");
+        echo "datum " . date("Y/m/d") . " " . " ";
+        echo "tijd " . date("h:i");
+        ?>
 </div>
