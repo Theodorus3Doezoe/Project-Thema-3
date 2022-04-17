@@ -22,9 +22,8 @@ zelftest pagina
 
 </header>
 <main>
-<<<<<<< HEAD
 <!--    <div class="slideshow-container">-->
-<!--        <!--vraag1-->-->
+<!--        vraag1-->
 <!--            <form action="resultaten.php" method="post">-->
 <!--                <div class="Slide">-->
 <!--                    <p>-->
@@ -54,7 +53,7 @@ zelftest pagina
 <!--                        </label>-->
 <!--                        <br>-->
 <!--                </div>-->
-<!--                <!--vraag2-->-->
+<!--                vraag2-->
 <!--                <div class="Slide">-->
 <!--                    <p>-->
 <!--                        Vraag 2 Heb je al eerdere ervaring opgedaan met ICT en vond je dit leuk?-->
@@ -86,7 +85,7 @@ zelftest pagina
 <!--                        <br>-->
 <!---->
 <!--                </div>-->
-<!--                <!--vraag3-->-->
+<!--                vraag3-->
 <!--                <div class="Slide">-->
 <!--                    <p>-->
 <!--                        Vraag 3 Lijkt programmeren je interessant-->
@@ -117,7 +116,7 @@ zelftest pagina
 <!--                        </label>-->
 <!---->
 <!--                </div>-->
-<!--                <!--vraag4-->-->
+<!--                vraag4-->
 <!--                <div class="Slide">-->
 <!--                    <p>-->
 <!--                        Vraag 4  Zie jij jezelf later grotendeels achter je computer werken?-->
@@ -150,7 +149,7 @@ zelftest pagina
 <!--                        <br>-->
 <!---->
 <!--                </div>-->
-<!--                <!--vraag5-->-->
+<!--                vraag5-->
 <!--                <div class="Slide">-->
 <!--                    <p>-->
 <!--                        Vraag 5 Ben je goed in problemen oplossen?-->
@@ -182,7 +181,7 @@ zelftest pagina
 <!--                        </label>-->
 <!---->
 <!--                </div>-->
-<!--                <!--vraag6-->-->
+<!--                vraag6-->
 <!--                <div class="Slide">-->
 <!---->
 <!--                    <p>-->
@@ -215,7 +214,7 @@ zelftest pagina
 <!--                        </label>-->
 <!---->
 <!--                </div>-->
-<!--                <!--vraag7-->-->
+<!--                vraag7-->
 <!--                <div class="Slide">-->
 <!--                    <p>-->
 <!--                        Vraag 7 Sleutel je graag aan computers?-->
@@ -247,7 +246,7 @@ zelftest pagina
 <!--                        </label>-->
 <!---->
 <!--                </div>-->
-<!--                <!--vraag8-->-->
+<!--                vraag8-->
 <!--                <div class="Slide">-->
 <!--                    <p>-->
 <!--                        Vraag 8 Lijkt het je leuk systemen te beheren-->
@@ -277,7 +276,7 @@ zelftest pagina
 <!--                        </label>-->
 <!---->
 <!--                </div>-->
-<!--                <!--vraag9-->-->
+<!--                vraag9-->
 <!--                <div class="Slide">-->
 <!---->
 <!--                        <p>-->
@@ -310,7 +309,7 @@ zelftest pagina
 <!--                            </label>-->
 <!---->
 <!--                </div>-->
-<!--                <!-- vraag10-->-->
+<!--                 vraag10-->
 <!--                <div class="Slide">-->
 <!--                    <p>-->
 <!--                        Vraag 10 Ben je bereid door te blijven leren om altijd op de hoogte te zijn van de nieuwste technieken en technologische ontwikkelingen die belangrijk kunnen zijn voor jouw beroep?-->
@@ -340,7 +339,7 @@ zelftest pagina
 <!--                        </label>-->
 <!---->
 <!--                </div>-->
-<!--                <!--vraag11-->-->
+<!--                vraag11-->
 <!--                <div class="Slide">-->
 <!--                    <p>-->
 <!--                        Vraag 11 Lijkt het beveiligen van netwerken je leuk?-->
@@ -372,7 +371,7 @@ zelftest pagina
 <!--                        </label>-->
 <!---->
 <!--                </div>-->
-<!--                <!--vraag12-->-->
+<!--                vraag12-->
 <!--                <div class="Slide">-->
 <!--                    <p>-->
 <!--                        Vraag 12 Lijkt het je leuk mensen binnen een bedrijf/organisatie te helpen als hun problemen hebben met hun apparaten?-->
@@ -402,7 +401,7 @@ zelftest pagina
 <!--                            4. nee-->
 <!--                        </label>-->
 <!--                </div>-->
-<!--                <!--versturen-->-->
+<!--                versturen-->
 <!--                <div class="Slide">-->
 <!--                    <p>u bent klaar met de test</p>-->
 <!--                        <input type="checkbox">-->
@@ -434,7 +433,7 @@ zelftest pagina
 <!--        <span class="dot" onclick="currentSlide(13)"></span>-->
 <!--    </div>-->
 <!--=======-->
-<!--   <div id="container">-->
+   <div id="container">
        <form action="resultaten.php" method="post">
             <!--uitleg-->
            <div class="vraag">

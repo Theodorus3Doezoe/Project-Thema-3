@@ -242,7 +242,7 @@ function addpoints()
             $points = $points - 5;
         }
     }
-    echo $points;
+    echo "Je hebt " . $points . " punten gehaald";
     if ($points < 80)
     {
         echo "<h2>Wij denken dat een ICT opleiding niet bij jou past.</h2>";
