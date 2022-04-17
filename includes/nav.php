@@ -13,7 +13,7 @@ navigatie include
                 <li class="nav" id="nav"><a class="anav" href="#">opleidingen</a></li>
             </div>
             <div>
-                <li class="nav"><a class="anav" href="#">studiekeuze</a></li>
+                <li class="nav"><a class="anav" href="#" target="_blank">studiekeuze</a></li>
             </div>
             <div>
                 <li class="nav"><a class="anav" href="#">volwassenen & werkgevers</a></li>
