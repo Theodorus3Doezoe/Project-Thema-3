@@ -24,11 +24,13 @@ navigatie include
             <div>
                 <li class="nav"><a class="anav" href="../pages/index.php">home</a></li>
             </div>
+            <div>
+            <?php
+            date_default_timezone_set("Europe/Amsterdam");
+            echo "datum " . date("Y/m/d") . " " . " ";
+            echo "tijd " . date("h:i");
+            ?>
+            </div>
         </ul>
     </div>
-        <?php
-        date_default_timezone_set("Europe/Amsterdam");
-        echo "datum " . date("Y/m/d") . " " . " ";
-        echo "tijd " . date("h:i");
-        ?>
 </div>
