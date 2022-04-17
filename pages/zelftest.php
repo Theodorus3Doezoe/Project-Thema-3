@@ -4,7 +4,7 @@ date 16-4-2022
 zelftest pagina
 -->
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -25,23 +25,21 @@ zelftest pagina
            <div class="vraag">
                <div id="uitleg">
                <?php
-
-
                echo "Goede " .  "en welkom bij de zelftest u kunt hier onder uw voledige naam invullen." . "<br>" .
                 "Daarna kunt u door gaan met het invullen van ale vragen en kunt u het formulier verzenden"
                ?>
                </div>
                <label for="fname" id="fname">First name: </label>
-               <input  type="text" name="fname"><br><br>
+               <input  type="text" name="h" value="fname"><br><br>
                <label for="lname" id="lname">Last name: </label>
-               <input type="text" name="lname"><br><br>
+               <input type="text" name="lname" value="lname"><br><br>
            </div>
            <!--vraag1-->
            <div class="vraag">
                <p>
                    Vraag 1 Ben jij geïnteresseerd in technologie?
                </p>
-               <input type="radio" name="q1" value="ja">
+               <input type="radio" name="q1" value="ja" required>
                <label>
                    1.  Ja
                </label>
@@ -70,7 +68,7 @@ zelftest pagina
                <p>
                    Vraag 2 Heb je al eerdere ervaring opgedaan met ICT en vond je dit leuk?
                </p>
-               <input type="radio" name="q2" value="Ja">
+               <input type="radio" name="q2" value="Ja" required>
                <label>
                    1.  Ja
                </label>
@@ -102,7 +100,7 @@ zelftest pagina
                </p>
 
 
-               <input type="radio" name="q3" value="Ja">
+               <input type="radio" name="q3" value="Ja" required>
                <label>
                    1.  Ja
                </label>
@@ -132,7 +130,7 @@ zelftest pagina
                    Vraag 4  Zie jij jezelf later grotendeels achter je computer werken?
                </p>
 
-               <input type="radio" name="q4" value="Ja">
+               <input type="radio" name="q4" value="Ja" required>
                <label>
                    1.  Ja
                </label>
@@ -162,10 +160,7 @@ zelftest pagina
                <p>
                    Vraag 5 Ben je goed in problemen oplossen?
                </p>
-
-
-
-               <input type="radio" name="q5" value="Ja">
+               <input type="radio" name="q5" value="Ja" required>
                <label>
                    1.  Ja
                </label>
@@ -198,7 +193,7 @@ zelftest pagina
 
 
 
-               <input type="radio" name="q6" id="q6a1" value="Ja">
+               <input type="radio" name="q6" id="q6a1" value="Ja" required>
                <label>
                    1.  Ja
                </label>
@@ -230,7 +225,7 @@ zelftest pagina
 
 
 
-               <input type="radio" name="q7" id="q7a1" value="Ja">
+               <input type="radio" name="q7" id="q7a1" value="Ja" required>
                <label>
                    1.  Ja
                </label>
@@ -260,7 +255,7 @@ zelftest pagina
                    Vraag 8 Lijkt het je leuk systemen te beheren?
                </p>
 
-               <input type="radio" name="q8" id="q8a1" value="Ja">
+               <input type="radio" name="q8" id="q8a1" value="Ja" required>
                <label>
                    1.  Ja
                </label>
@@ -293,7 +288,7 @@ zelftest pagina
 
 
 
-               <input type="radio" name="q9" id="q9a1" value="Ja">
+               <input type="radio" name="q9" id="q9a1" value="Ja" required>
                <label>
                    1.  Ja
                </label>
@@ -323,7 +318,7 @@ zelftest pagina
                    Vraag 10 Ben je bereid door te blijven leren om altijd op de hoogte te zijn van de nieuwste technieken en technologische ontwikkelingen die belangrijk kunnen zijn voor jouw beroep?
                </p>
 
-               <input type="radio" name="q10" id="q10a1" value="Ja">
+               <input type="radio" name="q10" id="q10a1" value="Ja" required>
                <label>
                    1.  Ja
                </label>
@@ -355,7 +350,7 @@ zelftest pagina
 
 
 
-               <input type="radio" name="q11" id="q11a1" value="Ja">
+               <input type="radio" name="q11" id="q11a1" value="Ja" required>
                <label>
                    1.  Ja
                </label>
@@ -386,7 +381,7 @@ zelftest pagina
                </p>
 
 
-               <input type="radio" name="q12" id="q12a1" value="Ja">
+               <input type="radio" name="q12" id="q12a1" value="Ja" required>
                <label>
                    1.  Ja
                </label>
@@ -416,7 +411,7 @@ zelftest pagina
                </p>
 
 
-               <input type="radio" name="q13" id="q13a1" value="Ja">
+               <input type="radio" name="q13" id="q13a1" value="Ja" required>
                <label>
                    1.  Ja
                </label>
@@ -446,7 +441,7 @@ zelftest pagina
                </p>
 
 
-               <input type="radio" name="q14" id="q14a1" value="Ja">
+               <input type="radio" name="q14" id="q14a1" value="Ja" required>
                <label>
                    1.  Ja
                </label>
@@ -476,7 +471,7 @@ zelftest pagina
                </p>
 
 
-               <input type="radio" name="q15" id="q15a1" value="Ja">
+               <input type="radio" name="q15" id="q15a1" value="Ja" required>
                <label>
                    1.  Ja
                </label>
@@ -502,13 +497,13 @@ zelftest pagina
             <!--verstuuren-->
            <div class="vraag">
                <p>u bent klaar met de test</p>
-               <input type="checkbox">
-               <label >
+               <input type="checkbox" name="amv" required>
+               <label>
                    ik ga akkoord met de algemene voorwaarden
                </label>
                <br>
                <br>
-               <input type="submit" value="Submit">
+               <input type="submit" id="submit" value="Submit">
            </div>
        </form>
    </div>
