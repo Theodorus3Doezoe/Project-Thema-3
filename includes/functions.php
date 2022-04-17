@@ -232,7 +232,15 @@ function addpoints()
             $points = $points - 5;
         }
     }
-    echo "<H1>hallo " . $_POST["fname"] . " " . $_POST["lname"] . "</H1>";
+    if (isset($_POST["fname"]) && isset($_POST["lname"]))
+    {
+        echo "<H1>hallo " . $_POST["fname"] . " " . $_POST["lname"] . "</H1>";
+    }
+    else
+    {
+        echo "<H1>hallo meneer/mevrouw</H1>";
+    }
+
     $punten = array(20, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15,);
     $sum = 0;
     foreach($punten as $key=>$value)
