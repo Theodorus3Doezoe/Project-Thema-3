@@ -45,16 +45,16 @@ zelftest pagina
                </div>
 <!--               naam in vullen-->
                <label for="fname" id="fname">First name: </label>
-               <input  type="text" name="h" value="fname"><br><br>
+               <input  type="text" name="fname"><br><br>
                <label for="lname" id="lname">Last name: </label>
-               <input type="text" name="lname" value="lname"><br><br>
+               <input type="text" name="lname"><br><br>
            </div>
            <!--vraag1-->
            <div class="vraag">
                <p>
                    Vraag 1 Ben jij geïnteresseerd in technologie?
                </p>
-               <input type="radio" name="q1" value="ja" required>
+               <input type="radio" name="q1" value="Ja" required>
                <label>
                    1.  Ja
                </label>
