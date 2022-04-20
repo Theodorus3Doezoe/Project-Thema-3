@@ -98,13 +98,13 @@ header
 {
     width: 100vw;
     background-color: #0085ca;
-    height: 60vh;
+    height: 70vh;
     text-align: center;
     margin-bottom: 500px;
 }
 #header
 {
-    height: 60vh;
+    height: 70vh;
     background-color: #0085ca;
 }
 p
@@ -178,7 +178,7 @@ footer
     text-align: center;
 }
 /*deze code word alleen uitgevoerd als het scherm 700px groot is*/
-@media only screen and (min-width: 700px)
+@media only screen and (min-width: 600px)
 {
     #logo
     {

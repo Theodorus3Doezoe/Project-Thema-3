@@ -45,9 +45,9 @@ zelftest pagina
                </div>
 <!--               naam in vullen-->
                <label for="fname" id="fname">First name: </label>
-               <input  type="text" name="fname"><br><br>
+               <input  type="text" name="fname" required><br><br>
                <label for="lname" id="lname">Last name: </label>
-               <input type="text" name="lname"><br><br>
+               <input type="text" name="lname" required><br><br>
            </div>
            <!--vraag1-->
            <div class="vraag">
