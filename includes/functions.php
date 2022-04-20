@@ -261,8 +261,8 @@ function addpoints()
         echo "<br><a href='https://www.kw1c.nl/opleiding/25606o10/expert-it-systems-and-devices-bol'>klik hier voor meer informatie</a><br>";
     }
 }
-    function showanswers()
-    {
+function showanswers()
+{
         echo "<h2>jouw antwoorden</h2>";
         if (isset($_POST['q1']))
         {
@@ -340,14 +340,14 @@ function addpoints()
             echo "<h3>Vraag 15 kan je goed in een team werken?</h3>";
             echo "Jouw antwoord: " . $_POST['q15'];
         }
-    }
-    function puntenpervraag()
+}
+function puntenpervraag()
+{
+
+    echo "<h1> maximaal aantal punten per vraag.</h1>";
+    $punten = array(20, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15,);
+    for ($counter = 0; $counter < 15; $counter++)
     {
-
-        echo "<h1> maximaal aantal punten per vraag.</h1>";
-        $punten = array(20, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15,);
-        for ($counter = 0; $counter < 15; $counter++) {
-            echo "<br>bij vraag " . $counter + 1 . " kon je " . $punten[$counter] . " punten halen<br>";
-        }
-
+        echo "<br>bij vraag " . $counter + 1 . " kon je " . $punten[$counter] . " punten halen<br>";
     }
+}
