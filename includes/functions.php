@@ -269,150 +269,76 @@ function addpoints()
             echo "<h3>Vraag 1 Ben jij geïnteresseerd in technologie?</h3>";
             echo "Jouw antwoord: " . $_POST['q1'];
         }
-        else
-        {
-            echo "<h3>Vraag 1 Ben jij geïnteresseerd in technologie?</h3>";
-            echo "je hebt deze vraag niet ingevuld";
-        }
         if (isset($_POST['q2']))
         {
             echo "<h3>Vraag 2 Heb je al eerdere ervaring opgedaan met ICT en vond je dit leuk?</h3>";
             echo "Jouw antwoord: " . $_POST['q2'];
-        }
-        else
-        {
-            echo "<h3>Vraag 2 Heb je al eerdere ervaring opgedaan met ICT en vond je dit leuk?</h3>";
-            echo "je hebt deze vraag niet ingevuld";
         }
         if (isset($_POST['q3']))
         {
             echo "<h3>Vraag 3 Lijkt programmeren je interessant?</h3>";
             echo "Jouw antwoord: " . $_POST['q3'];
         }
-        else
-        {
-            echo "<h3>Vraag 3 Lijkt programmeren je interessant?</h3>";
-            echo "je hebt deze vraag niet ingevuld";
-        }
+
         if (isset($_POST['q4']))
         {
             echo "<h3>Vraag 4  Zie jij jezelf later grotendeels achter je computer werken?</h3>";
             echo "Jouw antwoord: " . $_POST['q4'];
-        }
-        else
-        {
-            echo "<h3>Vraag 4  Zie jij jezelf later grotendeels achter je computer werken?</h3>";
-            echo "je hebt deze vraag niet ingevuld";
         }
         if (isset($_POST['q5']))
         {
             echo "<h3>Vraag 5 Ben je goed in problemen oplossen?</h3>";
             echo "Jouw antwoord: " . $_POST['q5'];
         }
-        else
-        {
-            echo "<h3>Vraag 5 Ben je goed in problemen oplossen?</h3>";
-            echo "je hebt deze vraag niet ingevuld";
-        }
         if (isset($_POST['q6']))
         {
             echo "<h3>Vraag 6 Raak je snel gefrustreerd?</h3>";
             echo "Jouw antwoord: " . $_POST['q6'];
-        }
-        else
-        {
-            echo "<h3>Vraag 6 Raak je snel gefrustreerd?</h3>";
-            echo "je hebt deze vraag niet ingevuld";
         }
         if (isset($_POST['q7']))
         {
             echo "<h3>Vraag 7 Sleutel je graag aan computers?</h3>";
             echo "Jouw antwoord: " . $_POST['q7'];
         }
-        else
-        {
-            echo "<h3>Vraag 7 Sleutel je graag aan computers?</h3>";
-            echo "je hebt deze vraag niet ingevuld";
-        }
         if (isset($_POST['q8']))
         {
             echo "<h3>Vraag 8 Lijkt het je leuk systemen te beheren?</h3>";
             echo "Jouw antwoord: " . $_POST['q8'];
-        }
-        else
-        {
-            echo "<h3>Vraag 8 Lijkt het je leuk systemen te beheren?</h3>";
-            echo "je hebt deze vraag niet ingevuld";
         }
         if (isset($_POST['q9']))
         {
             echo "<h3>Vraag 9 Lijkt het je leuk netwerken op te zetten voor bijvoorbeeld een bedrijf?</h3>";
             echo "Jouw antwoord: " . $_POST['q9'];
         }
-        else
-        {
-            echo "<h3>Vraag 9 Lijkt het je leuk netwerken op te zetten voor bijvoorbeeld een bedrijf?</h3>";
-            echo "je hebt deze vraag niet ingevuld";
-        }
         if (isset($_POST['q10']))
         {
             echo "<h3>Vraag 10 Ben je bereid door te blijven leren om altijd op de hoogte te zijn van de nieuwste technieken en technologische ontwikkelingen die belangrijk kunnen zijn voor jouw beroep?</h3>";
             echo "Jouw antwoord: " . $_POST['q10'];
-        }
-        else
-        {
-            echo "<h3>Vraag 10 Ben je bereid door te blijven leren om altijd op de hoogte te zijn van de nieuwste technieken en technologische ontwikkelingen die belangrijk kunnen zijn voor jouw beroep?</h3>";
-            echo "je hebt deze vraag niet ingevuld";
         }
         if (isset($_POST['q11']))
         {
             echo "<h3>Vraag 11 Lijkt het beveiligen van netwerken je leuk?</h3>";
             echo "Jouw antwoord: " . $_POST['q11'];
         }
-        else
-        {
-            echo "<h3>Vraag 11 Lijkt het beveiligen van netwerken je leuk?</h3>";
-            echo "je hebt deze vraag niet ingevuld";
-        }
         if (isset($_POST['q12']))
         {
             echo "<h3>Vraag 12 Lijkt het je leuk mensen binnen een bedrijf/organisatie te helpen als hun problemen hebben met hun apparaten?</h3>";
             echo "Jouw antwoord: " . $_POST['q12'];
-        }
-        else
-        {
-            echo "<h3>Vraag 12 Lijkt het je leuk mensen binnen een bedrijf/organisatie te helpen als hun problemen hebben met hun apparaten?</h3>";
-            echo "je hebt deze vraag niet ingevuld";
         }
         if (isset($_POST['q13']))
         {
             echo "<h3>Vraag 13 heb je ooit een keer een robot willen maken?</h3>";
             echo "Jouw antwoord: " . $_POST['q13'];
         }
-        else
-        {
-            echo "<h3>Vraag 13 heb je ooit een keer een robot willen maken?</h3>";
-            echo "je hebt deze vraag niet ingevuld";
-        }
         if (isset($_POST['q14']))
         {
             echo "<h3>Vraag 14 heb je veel technisch inzicht?</h3>";
             echo "Jouw antwoord: " . $_POST['q14'];
         }
-        else
-        {
-            echo "<h3>Vraag 14 heb je veel technisch inzicht?</h3>";
-            echo "je hebt deze vraag niet ingevuld";
-        }
         if (isset($_POST['q15']))
         {
             echo "<h3>Vraag 15 kan je goed in een team werken?</h3>";
             echo "Jouw antwoord: " . $_POST['q15'];
-        }
-        else
-        {
-            echo "<h3>Vraag 15 kan je goed in een team werken?</h3>";
-            echo "je hebt deze vraag niet ingevuld";
         }
     }
     function puntenpervraag()
